@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Example for Teng LIg"
+  author: "Teng Li"
+  date: "4/3/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
